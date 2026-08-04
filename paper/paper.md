@@ -11,7 +11,7 @@ authors:
     orcid: 0000-0003-0169-8159
     affiliation: 1
 affiliations:
-  - name: Leiden University Medical Center
+  - name: Leiden University Medical Center, The Netherlands
     index: 1
 date: 15 September 2025
 cito-bibliography: paper.bib
