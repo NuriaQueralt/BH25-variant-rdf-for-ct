@@ -112,7 +112,7 @@ __Use case-driven approach:__
 
 ## Clinical trials model  
   * Analysed ClinicalTrials.gov to understand how GV and molecular biomarkers are described. We found that the database uses tags such as “BRCA Mutation” and “Mutation Burden” in the *Condition* field (see [exemple](https://clinicaltrials.gov/study/NCT06792721?term=Mutation%20Burden&rank=3#study-overview)). It remains unclear what vocabularies or ontologies, if any, are used to represent this mutation information. Overall, ClinicalTrials.gov describes GV and biomarkers in the Study title and summary, *Eligibility criteria*, and Intervention fields primarily using free-text. This finding is in accordance with what we observed last year in the BH24 Semantic clinical trials project.
-  * Identified clinical trials models [CTO](https://pmc.ncbi.nlm.nih.gov/articles/PMC9389640/)[CTIS](https://doi.org/10.3233/shti240844) that enable to represent GV information for the precision oncology driving use case.
+  * Identified clinical trials models [@citesAsAuthority:Lin2020][@citesAsAuthority:Mathes2024] that enable to represent GV information for the precision oncology driving use case.
   * Next: Investigate if [RDFPortal](https://rdfportal.org/) represents clinical trials data and, if so, whether there is an RDF schema for variants.
   * Next: Develop an RDF-based model for clinical trials that integrates genomic variant data (including SVs) with trial eligibility criteria.
   * Next: Showcase how this model facilitates automated matching of patients to trials using semantic reasoning.
@@ -122,8 +122,8 @@ __Use case-driven approach:__
   * Next: Validate the schema’s ability to represent complex variants (e.g., SVs) and support AI-driven reasoning in knowledge graphs.
 
 ## Structural variants representation
-  * Assessed the state-of-the-art in structural variant representation [REF](https://www.nature.com/articles/s41586-020-2287-8)[REF](https://ceur-ws.org/Vol-3415/paper-22.pdf). To point out that we could not identify any existing semantic or RDF schema for SVs during the hackathon week.
-  * Received feedback on current developments from BioHackathon participants such as the [ACTG haplotype notation](https://jogo.csml.org/) from the Pangenome Graphs group, and engaged in discussions & brainstorming about existing tools [REF](https://pmc.ncbi.nlm.nih.gov/articles/PMC9365333/][https://www.science.org/doi/10.1126/science.adw1931) and graphical approaches [REF](https://www.sciencedirect.com/science/article/pii/S1673852723002412)[REF](https://www.nature.com/articles/s41586-025-09290-7) to represent and annotate SVs, e.g., using GFA file format and [Bandage](https://rrwick.github.io/Bandage/).
+  * Assessed the state-of-the-art in structural variant representation [@citesAsAuthority:Collins2020][@citesAsAuthority:Kawashima2023]. To point out that we could not identify any existing semantic or RDF schema for SVs during the hackathon week.
+  * Received feedback on current developments from BioHackathon participants such as the [ACTG haplotype notation](https://jogo.csml.org/) from the Pangenome Graphs group, and engaged in discussions & brainstorming about existing tools [@citesAsAuthority:Siren2021][@citesAsAuthority:Edwards2025] and graphical approaches [@citesAsAuthority:Li2024][@citesAsAuthority:Schloissnig2025] to represent and annotate SVs, e.g., using GFA file format and [Bandage](https://rrwick.github.io/Bandage/).
   * Next: Develop an RDF schema focusing on interoperability with existing semantic web data resources and global standards such as GA4GH VRS.
 
 ## Potential new use cases
