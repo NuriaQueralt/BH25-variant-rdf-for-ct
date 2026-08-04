@@ -10,9 +10,24 @@ authors:
   - name: Núria Queralt-Rosinach
     orcid: 0000-0003-0169-8159
     affiliation: 1
+  - name: Toshiaki Katayama
+    orcid: 0000-0003-2391-0384
+    affiliation: 2
+  - name: Jose Emilio Labra Gayo
+    orcid: 0000-0001-8907-5348
+    affiliation: 3
+  - name: Claude Nanjo
+    orcid: 0009-0002-1208-8858
+    affiliation: 4
 affiliations:
   - name: Leiden University Medical Center, The Netherlands
     index: 1
+  - name: , Database Center for Life Science, Japan
+    index: 2
+  - name: WESO Lab - University of Oviedo, Spain
+    index: 3
+  - name: University of Utah, USA
+    index: 4
 date: 15 September 2025
 cito-bibliography: paper.bib
 event: BH25JP
