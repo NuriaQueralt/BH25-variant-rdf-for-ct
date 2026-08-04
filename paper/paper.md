@@ -66,7 +66,7 @@ During the International SWAT4HCLS conference held on 24-27th February 2025 in B
 ## 3. State-of-the-art in clinical trials models and RDF schemas
 Current approaches to clinical trial matching often rely on __siloed databases__ (e.g., ClinVar, COSMIC) or proprietary formats, which hinder data integration and reuse. In the semantic web, RDF-based schemas such as BioPAX, TransMed, and OBAN have been proposed to model clinical trials and biomedical data. However, these schemas often lack __comprehensive support for genomic variants__, particularly SVs, and do not fully exploit the potential of __knowledge graphs__ for AI-driven reasoning. __Recent work__ has explored the use of __ontologies__ (e.g., SO, OBO) and __SPARQL queries__ to improve trial matching, but challenges remain in __standardizing variant representations__ and ensuring seamless integration with existing clinical trial databases.
 
-## Our Contributions to Current Research
+## Our contributions to current research
   __1. GA4GH VRS RDF for Semantic Clinical Trials:__
  We explored how to extend the GA4GH VRS RDF Schema to explicitly support patient-to-clinical-trial matching, enabling the representation of variants in a way that aligns with semantic web standards. This contribution envisions to facilitate the automated querying and reasoning of variant data within RDF knowledge graphs, improving the efficiency of trial matching.
 
