@@ -22,7 +22,7 @@ authors:
 affiliations:
   - name: Leiden University Medical Center, The Netherlands
     index: 1
-  - name: , Database Center for Life Science, Japan
+  - name: Database Center for Life Science, Japan
     index: 2
   - name: WESO Lab - University of Oviedo, Spain
     index: 3
